@@ -8,7 +8,7 @@ import { SiteLogo } from "./icons/siteLogo";
 export const Navbar = () => {
 	return (
 		<header tw="flex pt-10 pr-6 justify-end">
-			<nav>
+			<nav tw="hidden">
 				<SiteLogo />
 			</nav>
 			<nav
