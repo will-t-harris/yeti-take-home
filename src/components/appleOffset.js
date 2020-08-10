@@ -2,14 +2,16 @@
 import React from "react";
 import { jsx } from "@emotion/core";
 import { css } from "twin.macro";
-import * as image from "../assets/image.png";
+import * as image from "../assets/apple.png";
+
+import { AppleMask } from "../assets/appleMask";
 
 export const AppleOffset = () => {
 	return (
 		<React.Fragment>
 			<img
 				src={image}
-				alt="display showing apple and apple slices"
+				alt="display of apples and apple slices"
 				css={[
 					css`
 						width: 322px;
@@ -19,18 +21,7 @@ export const AppleOffset = () => {
 					`,
 				]}
 			/>
-			<div
-				css={[
-					css`
-						width: 322px;
-						height: 270px;
-						left: 60px;
-						top: 245px;
-						position: absolute;
-						background: #ededed;
-					`,
-				]}
-			/>
+			<AppleMask />
 		</React.Fragment>
 	);
 };
