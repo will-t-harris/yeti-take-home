@@ -11,14 +11,17 @@ export const AppleOffset = () => {
 			<img
 				src={image}
 				alt="display of apples and apple slices"
-				tw="w-322 lg:w-701"
 				css={{
 					width: "322px",
 					"object-fit": "contain",
 					position: "relative",
-					"z-index": "2",
+					"z-index": "1",
 					"@media (min-width: 640px)": {
-						width: "701px;",
+						"object-fit": "cover",
+						"object-position": "top",
+						width: "701px",
+						height: "493px",
+						"z-index": "1",
 					},
 				}}
 			/>
