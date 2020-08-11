@@ -4,6 +4,7 @@ import { jsx, css } from "@emotion/core";
 
 import { PageTitle } from "./pageTitle";
 import { AboutBlock } from "../components/aboutBlock";
+import { VisionBlock } from "../components/visionBlock";
 import { ContentBlock } from "../components/contentBlock";
 import { AppleOffset } from "../components/appleOffset";
 import { PyramidOffset } from "../components/pyramidOffset";
@@ -29,13 +30,10 @@ export const About = () => {
 				/>
 			</section>
 			<section>
-				<ContentBlock
-					hasTitle={true}
+				<VisionBlock
 					titleText="Our vision"
-					titleFontSize={73}
 					subTitleText="Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer."
-					subTitleFontSize={24}
-					bodyFirstParagraph="Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! No… but I'd like to be asked! Oh, you're gonna be in a coma, all right."
+					bodyParagraph="Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! No… but I'd like to be asked! Oh, you're gonna be in a coma, all right."
 				/>
 			</section>
 			<PyramidOffset />
