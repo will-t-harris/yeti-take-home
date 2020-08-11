@@ -19,6 +19,15 @@ export const VisionBlock = ({ titleText, subTitleText, bodyParagraph }) => {
 					width: "354px",
 					height: "129px",
 					margin: 0,
+					"@media (min-width: 640px)": {
+						gridColumnStart: 4,
+						gridRowStart: 2,
+						fontSize: "7.5rem",
+						transform: "rotate(90deg)",
+						height: "150px",
+						width: "575px",
+						lineHeight: "1.25",
+					},
 				}}
 			>
 				{titleText}
@@ -36,9 +45,9 @@ export const VisionBlock = ({ titleText, subTitleText, bodyParagraph }) => {
 					color: "#1e252c",
 					margin: 0,
 					"@media (min-width: 640px)": {
-						gridColumnStart: "2",
+						gridColumnStart: "1",
 						gridRowStart: "1",
-						paddingLeft: "197px",
+						fontSize: "2.1875rem",
 						marginTop: "130px",
 						width: "450px",
 					},
@@ -60,11 +69,10 @@ export const VisionBlock = ({ titleText, subTitleText, bodyParagraph }) => {
 					marginTop: "24px",
 					marginBottom: "49px",
 					"@media (min-width: 640px)": {
-						gridColumnStart: "2",
-						gridRowStart: "1",
-						paddingLeft: "197px",
-						paddingTop: "205px",
-						width: "450px",
+						gridColumnStart: 2,
+						gridRowStart: 2,
+						width: "665px",
+						fontSize: "20px",
 					},
 				}}
 			>
