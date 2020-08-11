@@ -3,6 +3,7 @@ import React from "react";
 import { jsx, css } from "@emotion/core";
 
 import { PageTitle } from "./pageTitle";
+import { AboutBlock } from "../components/aboutBlock";
 import { ContentBlock } from "../components/contentBlock";
 import { AppleOffset } from "../components/appleOffset";
 import { PyramidOffset } from "../components/pyramidOffset";
@@ -22,11 +23,9 @@ export const About = () => {
 				}}
 			>
 				<AppleOffset />
-				<ContentBlock
-					hasTitle={false}
+				<AboutBlock
 					subTitleText="Andy Griffith turned us down."
-					subTitleFontSize={24}
-					bodyFirstParagraph="Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his nice trailer. That's why you always leave a note!"
+					bodyParagraph="Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his nice trailer. That's why you always leave a note!"
 				/>
 			</section>
 			<section>
