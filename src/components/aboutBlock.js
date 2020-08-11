@@ -14,10 +14,8 @@ export const AboutBlock = ({
 					fontFamily: "Poppins",
 					fontSize: "1.5rem",
 					fontWeight: "600",
-					fontStretch: "normal",
-					fontStyle: "normal",
 					lineHeight: "1.46",
-					letterSpacing: "0.288rem",
+					letterSpacing: "0.46px",
 					color: "#1e252c",
 					margin: "0",
 					"@media (min-width: 40rem)": {

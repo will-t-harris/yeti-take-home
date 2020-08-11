@@ -18,6 +18,7 @@ export const VisionBlock = ({ titleText, subTitleText, bodyParagraph }) => {
 					color: "white",
 					width: "354px",
 					height: "129px",
+					margin: 0,
 				}}
 			>
 				{titleText}
@@ -33,6 +34,7 @@ export const VisionBlock = ({ titleText, subTitleText, bodyParagraph }) => {
 					lineHeight: "1.46",
 					letterSpacing: "0.46px",
 					color: "#1e252c",
+					margin: 0,
 					"@media (min-width: 640px)": {
 						gridColumnStart: "2",
 						gridRowStart: "1",
