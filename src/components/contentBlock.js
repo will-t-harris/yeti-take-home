@@ -42,6 +42,13 @@ export const ContentBlock = ({
 					"line-height": "1.46",
 					"letter-spacing": "0.46px",
 					color: "#1e252c",
+					"@media (min-width: 640px)": {
+						"grid-column-start": "2",
+						"grid-row-start": "1",
+						"padding-left": "197px",
+						"margin-top": "130px",
+						width: "450px",
+					},
 				}}
 			>
 				{subTitleText}
@@ -59,6 +66,13 @@ export const ContentBlock = ({
 					color: "#4a4a4a",
 					"margin-top": "24px",
 					"margin-bottom": "49px",
+					"@media (min-width: 640px)": {
+						"grid-column-start": "2",
+						"grid-row-start": "1",
+						"padding-left": "197px",
+						"padding-top": "205px",
+						width: "450px",
+					},
 				}}
 			>
 				{bodyFirstParagraph}

@@ -13,7 +13,14 @@ export const About = () => {
 			<div>
 				<PageTitle titleText="About" />
 			</div>
-			<section>
+			<section
+				css={{
+					"@media (min-width: 640px)": {
+						display: "grid",
+						"grid-template-columns": "1fr 1fr",
+					},
+				}}
+			>
 				<AppleOffset />
 				<ContentBlock
 					hasTitle={false}
