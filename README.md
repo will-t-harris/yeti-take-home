@@ -12,5 +12,5 @@
 
 ## Built With
 
-- React (create-react-app)
-- Emotion
+- [React (create-react-app)](https://create-react-app.dev/)
+- [Emotion](https://emotion.sh/docs/introduction)
