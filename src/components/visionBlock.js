@@ -11,8 +11,6 @@ export const VisionBlock = ({ titleText, subTitleText, bodyParagraph }) => {
 					fontFamily: "Eczar",
 					fontSize: "4.5625rem",
 					fontWeight: "600",
-					fontStretch: "normal",
-					fontStyle: "normal",
 					lineHeight: "1.77",
 					letterSpacing: "normal",
 					color: "white",
@@ -21,11 +19,11 @@ export const VisionBlock = ({ titleText, subTitleText, bodyParagraph }) => {
 					margin: 0,
 					"@media (min-width: 640px)": {
 						gridColumnStart: 4,
-						gridRowStart: 2,
+						gridRowStart: 1,
 						fontSize: "7.5rem",
-						transform: "rotate(90deg)",
-						height: "150px",
+						transform: "rotate(90deg) translateX(250px)",
 						width: "575px",
+						height: "150px",
 						lineHeight: "1.25",
 					},
 				}}
@@ -73,6 +71,8 @@ export const VisionBlock = ({ titleText, subTitleText, bodyParagraph }) => {
 						gridRowStart: 2,
 						width: "665px",
 						fontSize: "20px",
+						marginBottom: "250px",
+						marginTop: 0,
 					},
 				}}
 			>
