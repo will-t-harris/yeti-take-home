@@ -37,10 +37,12 @@ export const Navbar = () => {
 					fontWeight: "500",
 					fontStretch: "normal",
 					fontStyle: "normal",
-
 					letterSpacing: "3px",
 					color: "#1e252c",
 					marginRight: "12px",
+					"@media (min-width: 640px)": {
+						marginRight: "17.5px",
+					},
 				}}
 			>
 				MENU
