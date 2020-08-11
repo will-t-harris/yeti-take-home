@@ -17,6 +17,14 @@ export const PageTitle = ({ titleText }) => {
 				color: "#ffffff",
 				width: "354px",
 				height: "176px",
+				"@media (min-width: 640px)": {
+					position: "relative",
+					"padding-top": "62px",
+					"z-index": "10",
+					color: "transparent",
+					width: "335px",
+					"font-size": "120px",
+				},
 			}}
 		>
 			{titleText}
