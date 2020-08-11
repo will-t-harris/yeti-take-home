@@ -29,7 +29,15 @@ export const About = () => {
 					bodyParagraph="Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his nice trailer. That's why you always leave a note!"
 				/>
 			</section>
-			<section>
+			<section
+				css={{
+					"@media (min-width: 640px)": {
+						display: "grid",
+						gridTemplateColumns: "230px 230px 1fr 1fr",
+						gridTemplateRows: "1fr 1fr",
+					},
+				}}
+			>
 				<VisionBlock
 					titleText="Our vision"
 					subTitleText="Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer."
