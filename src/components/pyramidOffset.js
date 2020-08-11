@@ -21,6 +21,7 @@ export const PyramidOffset = () => {
 						"@media (min-width: 40rem)": {
 							width: "1074px",
 							height: "571px",
+							marginLeft: "15vw",
 						},
 					}}
 				/>

@@ -12,7 +12,8 @@ export const PyramidMask = () => {
 				"@media (min-width: 40rem)": {
 					width: "996px",
 					height: "553px",
-					bottom: "600px",
+					bottom: 650,
+					right: -222,
 				},
 			}}
 			xmlns="http://www.w3.org/2000/svg"
