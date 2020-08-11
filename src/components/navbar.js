@@ -9,21 +9,22 @@ export const Navbar = () => {
 		<header
 			css={{
 				display: "flex",
-				"justify-content": "flex-end",
+				justifyContent: "flex-end",
 				padding: "40px 24px 0 0",
 				"@media (min-width: 640px)": {
-					"padding-right": "128px",
+					paddingRight: "128px",
+					marginBottom: "128px",
 				},
 			}}
 		>
 			<nav
 				css={{
 					display: "none",
-					"padding-left": "176px",
-					"margin-right": "auto",
+					paddingLeft: "176px",
+					marginRight: "auto",
 					"@media (min-width: 640px)": {
 						display: "flex",
-						"padding-left": "128px",
+						paddingLeft: "128px",
 					},
 				}}
 			>
@@ -31,15 +32,15 @@ export const Navbar = () => {
 			</nav>
 			<nav
 				css={{
-					"font-family": "Poppins",
-					"font-size": "12px",
-					"font-weight": "500",
-					"font-stretch": "normal",
-					"font-style": "normal",
+					fontFamily: "Poppins",
+					fontSize: "12px",
+					fontWeight: "500",
+					fontStretch: "normal",
+					fontStyle: "normal",
 
-					"letter-spacing": "3px",
+					letterSpacing: "3px",
 					color: "#1e252c",
-					"margin-right": "12px",
+					marginRight: "12px",
 				}}
 			>
 				MENU

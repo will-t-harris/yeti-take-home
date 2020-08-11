@@ -6,24 +6,26 @@ export const PageTitle = ({ titleText }) => {
 	return (
 		<h1
 			css={{
-				"-webkit-text-stroke": "1px #1e252c",
-				"font-family": "Eczar",
-				"font-size": "99px",
-				"font-weight": "600",
-				"font-stretch": "normal",
-				"font-style": "normal",
-				"line-height": "1.78",
-				"letter-spacing": "normal",
+				WebkitTextStroke: "1px #1e252c",
+				fontFamily: "Eczar",
+				fontSize: "99px",
+				fontWeight: "600",
+				fontStretch: "normal",
+				fontStyle: "normal",
+				lineHeight: "1.78",
+				letterSpacing: "normal",
 				color: "#ffffff",
 				width: "354px",
 				height: "176px",
+				marginTop: "0",
+				marginBottom: "-1rem",
 				"@media (min-width: 640px)": {
 					position: "relative",
-					"padding-top": "62px",
-					"z-index": "10",
+					zIndex: "10",
 					color: "transparent",
 					width: "335px",
-					"font-size": "120px",
+					fontSize: "120px",
+					marginBottom: "-3.75rem",
 				},
 			}}
 		>

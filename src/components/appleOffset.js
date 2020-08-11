@@ -7,21 +7,21 @@ import { AppleMask } from "../assets/appleMask";
 
 export const AppleOffset = () => {
 	return (
-		<div css={{ "margin-bottom": "80px" }}>
+		<div css={{ marginBottom: "80px" }}>
 			<img
 				src={image}
 				alt="display of apples and apple slices"
 				css={{
-					width: "322px",
-					"object-fit": "contain",
+					width: "20.125rem",
+					objectFit: "contain",
 					position: "relative",
-					"z-index": "1",
-					"@media (min-width: 640px)": {
-						"object-fit": "cover",
-						"object-position": "top",
-						width: "701px",
+					zIndex: "1",
+					"@media (min-width: 40rem)": {
+						objectFit: "cover",
+						objectPosition: "top",
+						width: "43.75rem",
 						height: "493px",
-						"z-index": "1",
+						zIndex: "1",
 					},
 				}}
 			/>

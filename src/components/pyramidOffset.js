@@ -8,17 +8,17 @@ import { PyramidMask } from "../assets/pyramidMask";
 export const PyramidOffset = () => {
 	return (
 		<React.Fragment>
-			<div css={{ "margin-top": "80px", "margin-bottom": "-140px" }}>
+			<div css={{ marginTop: "80px", marginBottom: "-140px" }}>
 				<img
 					src={image}
 					alt="inverted cubic pyramid"
 					css={{
-						width: "327px",
-						left: "25px",
-						"object-fit": "contain",
+						width: "20.5rem",
+						left: "1.5rem",
+						objectFit: "contain",
 						position: "relative",
-						"z-index": "2",
-						"@media (min-width: 640px)": {
+						zIndex: "2",
+						"@media (min-width: 40rem)": {
 							width: "1074px",
 							height: "571px",
 						},
