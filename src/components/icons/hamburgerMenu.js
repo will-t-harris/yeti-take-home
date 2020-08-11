@@ -1,8 +1,16 @@
+/**@jsx jsx */
 import React from "react";
+import { jsx } from "@emotion/core";
 
 export const HamburgerMenu = () => {
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" width="27" height="10" fill="none">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="27"
+			height="10"
+			fill="none"
+			css={{ paddingTop: "4px" }}
+		>
 			<path
 				stroke="#000"
 				strokeLinecap="round"
