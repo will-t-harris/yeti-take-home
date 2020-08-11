@@ -7,9 +7,9 @@ export const PyramidMask = () => {
 		<svg
 			css={{
 				position: "relative",
-				bottom: "195px",
+				bottom: "12.75rem",
 				right: "0",
-				"@media (min-width: 640px)": {
+				"@media (min-width: 40rem)": {
 					width: "996px",
 					height: "553px",
 					bottom: "600px",

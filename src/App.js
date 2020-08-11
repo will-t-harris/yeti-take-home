@@ -13,7 +13,7 @@ function App() {
 				css={{
 					padding: "0 30px",
 					"@media (min-width: 640px)": {
-						padding: "0 128px",
+						padding: "0 132px",
 					},
 				}}
 			>

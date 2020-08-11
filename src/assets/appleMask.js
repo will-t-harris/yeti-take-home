@@ -7,13 +7,13 @@ export const AppleMask = () => {
 		<svg
 			css={{
 				position: "absolute",
-				top: "270px",
-				right: "30px",
-				"@media (min-width: 640px)": {
-					width: "701px",
-					height: "493px",
-					top: "325px",
-					left: "200px",
+				top: "16rem",
+				right: "1.5rem",
+				"@media (min-width: 40rem)": {
+					width: "43.75rem",
+					height: "30.8125rem",
+					top: "25rem",
+					left: "13rem",
 				},
 			}}
 			xmlns="http://www.w3.org/2000/svg"
