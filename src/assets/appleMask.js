@@ -10,7 +10,10 @@ export const AppleMask = () => {
 				top: "270px",
 				right: "30px",
 				"@media (min-width: 640px)": {
-					display: "none",
+					width: "701px",
+					height: "493px",
+					top: "325px",
+					left: "200px",
 				},
 			}}
 			xmlns="http://www.w3.org/2000/svg"
