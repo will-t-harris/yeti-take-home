@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import React from "react";
-import { jsx } from "@emotion/core";
-import tw, { css } from "twin.macro";
+import { jsx, css } from "@emotion/core";
 
 import { PageTitle } from "./pageTitle";
 import { ContentBlock } from "../components/contentBlock";
@@ -13,9 +12,9 @@ export const About = () => {
 		<React.Fragment>
 			<div>
 				<PageTitle titleText="About" />
-				<AppleOffset />
 			</div>
-			<section tw="mt-20">
+			<section>
+				<AppleOffset />
 				<ContentBlock
 					hasTitle={false}
 					subTitleText="Andy Griffith turned us down."

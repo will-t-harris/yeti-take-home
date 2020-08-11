@@ -1,18 +1,20 @@
 /**@jsx jsx */
 import React from "react";
-import { jsx } from "@emotion/core";
-import tw, { css } from "twin.macro";
+import { jsx, css } from "@emotion/core";
 
 export const PyramidMask = () => {
 	return (
 		<svg
-			tw="relative"
-			css={[
-				css`
-					bottom: 195px;
-					right: 0;
-				`,
-			]}
+			css={{
+				position: "relative",
+				bottom: "195px",
+				right: "0",
+				"@media (min-width: 640px)": {
+					width: "996px",
+					height: "553px",
+					bottom: "600px",
+				},
+			}}
 			xmlns="http://www.w3.org/2000/svg"
 			width="303"
 			height="168"
